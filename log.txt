@@ -1,1 +1,9 @@
-
+https://api.slack.com/favicon.ico status--> 200
+https://api.slack.com/administration status--> 200
+https://api.slack.com/developers status--> 200
+https://api.slack.com/adminlogin status--> 200
+https://api.slack.com/store status--> 200
+https://api.slack.com/status status--> 200
+https://api.slack.com/posts status--> 200
+https://api.slack.com/videos status--> 200
+https://api.slack.com/homes status--> 200

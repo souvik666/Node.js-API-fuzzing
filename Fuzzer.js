@@ -21,7 +21,6 @@ const FetchStatsu = (url, paths) => {
       }
     })
     .catch(function (error) {
-      //console.log("still searching...");
     })
     .then(function () {});
 };
@@ -32,6 +31,7 @@ const wordlist = (url) => {
     for (let i of data) {
       FetchStatsu(url, i);
     }
+    console.log("ended");
   });
 };
 
@@ -45,5 +45,4 @@ readline.question("Target Url" + "\n", (url) => {
   readline.close();
 });
 
-/* FetchStatsu("https://duttatyreaapi.herokuapp.com", "bike");
- */
+
