@@ -21,7 +21,7 @@ const FetchStatsu = (url, paths) => {
       }
     })
     .catch(function (error) {
-      console.log("still searching...");
+      //console.log("still searching...");
     })
     .then(function () {});
 };
@@ -36,7 +36,7 @@ const wordlist = (url) => {
 };
 
 readline.question("Target Url" + "\n", (url) => {
-  if (!url || !url.includes("https" || "http") || url[url.length - 1] !== "/")
+  if (!url || !url.includes("https" || "http") || url[url.length - 1] == "/")
     return console.log(
       "No url specified or url doenst contain http or https or last index got a /"
     );
