@@ -18,3 +18,4 @@ Fuzz testing or Fuzzing is a Black Box software testing technique, which basical
 
 Fell free to contribute
 
+![](https://i.ibb.co/JtsV7P1/fuzzer-1.gif)
